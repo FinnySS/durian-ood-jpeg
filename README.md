@@ -103,10 +103,10 @@ See [CITATION.cff](CITATION.cff). Until the paper is published:
 @misc{durian_rejection_jpeg_2026,
   title  = {A Failure That AUROC Does Not Show: Out-of-Scope Rejection under
             JPEG Compression in Smartphone Durian Disease Classifiers},
-  author = {Thanadon Kuttasena},
+  author = {Kuttasena, Thanadon}
   year   = {2026},
   note   = {Manuscript in preparation},
-  howpublished = {\url{https://github.com/[account]/[repository]}}
+  howpublished = {\url{https://github.com/FinnySS/durian-ood-jpeg}}
 }
 ```
 

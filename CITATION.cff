@@ -3,15 +3,14 @@ message: "If you use this code or build on these findings, please cite it as bel
 title: "A Failure That AUROC Does Not Show: Out-of-Scope Rejection under JPEG Compression in Smartphone Durian Disease Classifiers"
 type: software
 authors:
-
   - family-names: "Kuttasena"
     given-names: "Thanadon"
-    affiliation: "[Thammasat University, Thailand]"
+    affiliation: "Thammasat University, Thailand"
     orcid: "https://orcid.org/0009-0004-4176-0492"
 repository-code: "https://github.com/FinnySS/durian-ood-jpeg"
 license: MIT
 version: "1.0.0"
-date-released: "2026-12-01"  
+date-released: "2026-11-21"
 keywords:
   - durian
   - plant disease classification
@@ -30,7 +29,7 @@ preferred-citation:
   type: unpublished
   title: "A Failure That AUROC Does Not Show: Out-of-Scope Rejection under JPEG Compression in Smartphone Durian Disease Classifiers"
   authors:
-    - family-names: "Lastname"
-      given-names: "Firstname"
+    - family-names: "Kuttasena"
+      given-names: "Thanadon"
   year: 2026
-  notes: "Manuscript in preparation. Replace with the journal reference and DOI after publication."
+  notes: "Manuscript in preparation."
