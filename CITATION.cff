@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or build on these findings, please cite it as below."
+title: "A Failure That AUROC Does Not Show: Out-of-Scope Rejection under JPEG Compression in Smartphone Durian Disease Classifiers"
+type: software
+authors:
+
+  - family-names: "Kuttasena"
+    given-names: "Thanadon"
+    affiliation: "[Thammasat University, Thailand]"
+    orcid: "https://orcid.org/0009-0004-4176-0492"
+repository-code: "https://github.com/FinnySS/durian-ood-jpeg"
+license: MIT
+version: "1.0.0"
+date-released: "2026-12-01"  
+keywords:
+  - durian
+  - plant disease classification
+  - out-of-distribution detection
+  - open-set rejection
+  - JPEG compression
+  - shortcut learning
+  - smartphone application
+abstract: >-
+  Code and pre-specified experiments for a study of out-of-scope rejection in
+  smartphone durian disease classifiers. A classifier with about 96% accuracy and
+  an AUROC of about 0.99 labelled about 43% of reduced, JPEG-compressed
+  out-of-scope images as diseased under the top-1 rule. Pre-specified experiments
+  traced the failure to JPEG compression rather than resolution.
+preferred-citation:
+  type: unpublished
+  title: "A Failure That AUROC Does Not Show: Out-of-Scope Rejection under JPEG Compression in Smartphone Durian Disease Classifiers"
+  authors:
+    - family-names: "Lastname"
+      given-names: "Firstname"
+  year: 2026
+  notes: "Manuscript in preparation. Replace with the journal reference and DOI after publication."

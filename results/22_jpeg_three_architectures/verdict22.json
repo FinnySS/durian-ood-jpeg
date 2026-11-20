@@ -1,0 +1,166 @@
+{
+ "criteria_sha": "786fc64e62f03dedc8aaa94b32c5036b61d06cb920f1e308f3e5d5f9198bdae6",
+ "per_model": {
+  "mobilenetv3_large_100": {
+   "verdict": "ยืนยัน",
+   "G": true,
+   "P1": true,
+   "P2": true,
+   "gap": 29.870129870129873,
+   "closed_jpeg": 85.5072463768116,
+   "jpeg_ci_hi": -18.858243364822314,
+   "closed_resize": -37.681159420289816,
+   "closed_jpeg_ci": [
+    73.4348958333333,
+    98.48541383989145
+   ],
+   "closed_resize_ci": [
+    -71.22348484848492,
+    -13.500351000351069
+   ],
+   "sources": [
+    [
+     "base",
+     1,
+     "reused_checkpoint"
+    ],
+    [
+     "base",
+     2,
+     "trained"
+    ],
+    [
+     "base",
+     42,
+     "reused_checkpoint"
+    ],
+    [
+     "qaug",
+     1,
+     "reused_checkpoint"
+    ],
+    [
+     "qaug",
+     2,
+     "reused_checkpoint"
+    ],
+    [
+     "qaug",
+     42,
+     "reused_checkpoint"
+    ],
+    [
+     "qaug_jpeg",
+     1,
+     "trained"
+    ],
+    [
+     "qaug_jpeg",
+     2,
+     "trained"
+    ],
+    [
+     "qaug_jpeg",
+     42,
+     "trained"
+    ],
+    [
+     "qaug_resize",
+     1,
+     "trained"
+    ],
+    [
+     "qaug_resize",
+     2,
+     "trained"
+    ],
+    [
+     "qaug_resize",
+     42,
+     "trained"
+    ]
+   ]
+  },
+  "mobilenetv4_conv_small": {
+   "verdict": "ไม่ยืนยัน",
+   "G": true,
+   "P1": false,
+   "P2": true,
+   "gap": 12.987012987012987,
+   "closed_jpeg": 76.66666666666667,
+   "jpeg_ci_hi": -6.0606060606060606,
+   "closed_resize": -39.99999999999997,
+   "closed_jpeg_ci": [
+    54.82488479262666,
+    105.55555555555557
+   ],
+   "closed_resize_ci": [
+    -104.5508658008658,
+    -2.361747161475665e-14
+   ],
+   "sources": [
+    [
+     "base",
+     1,
+     "reused_checkpoint"
+    ],
+    [
+     "base",
+     2,
+     "trained"
+    ],
+    [
+     "base",
+     42,
+     "reused_checkpoint"
+    ],
+    [
+     "qaug",
+     1,
+     "reused_checkpoint"
+    ],
+    [
+     "qaug",
+     2,
+     "trained"
+    ],
+    [
+     "qaug",
+     42,
+     "reused_checkpoint"
+    ],
+    [
+     "qaug_jpeg",
+     1,
+     "trained"
+    ],
+    [
+     "qaug_jpeg",
+     2,
+     "trained"
+    ],
+    [
+     "qaug_jpeg",
+     42,
+     "trained"
+    ],
+    [
+     "qaug_resize",
+     1,
+     "trained"
+    ],
+    [
+     "qaug_resize",
+     2,
+     "trained"
+    ],
+    [
+     "qaug_resize",
+     42,
+     "trained"
+    ]
+   ]
+  }
+ },
+ "overall": "ยืนยัน 1 จาก 2 สถาปัตยกรรม (รายงานตามจริง)"
+}

@@ -1,0 +1,103 @@
+# Code only: no data, images, model weights or credentials (see DATA.md).
+
+# ---- credentials -------------------------------------------------------
+kaggle.json
+.kaggle/
+*.env
+.env*
+secrets*
+*credentials*
+*token*
+*.pem
+*.key
+service_account*.json
+
+# ---- model weights and exported models ---------------------------------
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.h5
+
+# ---- arrays, caches and embeddings -------------------------------------
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# ---- images, video and archives ----------------------------------------
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.heic
+*.HEIC
+*.webp
+*.tif
+*.tiff
+*.bmp
+*.gif
+*.mp4
+*.mov
+*.zip
+*.tar
+*.tar.gz
+*.7z
+# allowed exceptions
+!docs/figures/*.png
+!examples/*.jpg
+
+# ---- data folders --------------------------------------------------------
+data/
+datasets/
+durian_raw/
+durian_work/
+durian_ext/
+orchard_th/
+openchat_raw/
+field_cache/
+clean_1024/
+cache/
+outputs/
+runs/
+wandb/
+results/**/best.pt
+# private registries and logs
+orchard_registry*.csv
+openchat_log*.csv
+*_triage*.csv
+metadata*.csv
+triage*.csv
+
+# ---- LaTeX build files -----------------------------------------------------
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*-eps-converted-to.pdf
+
+# ---- Python / Jupyter ------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# ---- OS / editors ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

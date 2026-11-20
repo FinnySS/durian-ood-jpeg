@@ -1,0 +1,63 @@
+{
+ "written_utc": "2026-11-20T11:16:42.150349+00:00",
+ "criteria": {
+  "level": "112px",
+  "G_min_gap": 10.0,
+  "G_min_seeds": 3,
+  "P1_jpeg_close_min": 80.0,
+  "P2_resize_close_max": 20.0,
+  "architectures": [
+   "mobilenetv3_large_100.ra_in1k",
+   "mobilenetv4_conv_small.e2400_r224_in1k"
+  ]
+ },
+ "arms": {
+  "base": null,
+  "qaug": {
+   "parts": [
+    "resize",
+    "jpeg",
+    "noise"
+   ],
+   "who": "all"
+  },
+  "qaug_jpeg": {
+   "parts": [
+    "jpeg"
+   ],
+   "who": "all"
+  },
+  "qaug_resize": {
+   "parts": [
+    "resize"
+   ],
+   "who": "all"
+  }
+ },
+ "new_arms": [
+  "qaug_jpeg",
+  "qaug_resize"
+ ],
+ "seeds": [
+  42,
+  1,
+  2
+ ],
+ "models": [
+  "mobilenetv3_large_100.ra_in1k",
+  "mobilenetv4_conv_small.e2400_r224_in1k"
+ ],
+ "quality_aug": {
+  "p_downscale": 0.6,
+  "scale": [
+   0.25,
+   1.0
+  ],
+  "p_jpeg": 0.6,
+  "jpeg_q": [
+   30,
+   96
+  ],
+  "p_noise": 0.3
+ }
+}
